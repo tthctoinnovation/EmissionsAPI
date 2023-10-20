@@ -1,6 +1,6 @@
-## ${{ values.name }}
+## Emissions API
 
-${{ values.description }}
+This is Emissions API that reads emissions data from IUX platform
 
 ## Getting started
 

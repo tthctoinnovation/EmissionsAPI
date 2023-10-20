@@ -1,0 +1,8 @@
+site_name: "EmissionsAPI"
+site_description: "Emissions API"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

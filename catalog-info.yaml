@@ -3,6 +3,10 @@ kind: Component
 metadata:
   name: "EmissionsAPI"
   description: "Emissions API"
+  links:
+    - url: https://savitha.atlassian.net/wiki/spaces/~5570580e080c2a24874b35bd4a5a1bcb550b5e/pages/20742146/Architecture+guidance
+      title: My Dashboard
+      icon: dashboard
   annotations:
     github.com/project-slug: tthctoinnovation/EmissionsAPI
     backstage.io/techdocs-ref: dir:.

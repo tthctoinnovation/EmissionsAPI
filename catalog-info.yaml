@@ -6,6 +6,7 @@ metadata:
   annotations:
     github.com/project-slug: tthctoinnovation/EmissionsAPI
     backstage.io/techdocs-ref: dir:.
+    jira/project-key: "TTHCTO-001"
 spec:
   type: service
   lifecycle: experimental

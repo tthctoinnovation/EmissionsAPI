@@ -19,3 +19,27 @@ spec:
   owner: "group:default/rapidlabs"
   subcomponentOf: "component:default/GreenMilesAPI"
   system: "sustainability"
+  definition: |
+        openapi: "3.0.0"
+        info:
+          version: 1.0.0
+          title: Emissions API
+        paths:
+          /emission/options:
+            get:
+              summary: Get various search options
+              responses:
+                      '200':
+                        description: OK
+          /emission/{optionId}/parameter:
+              get:
+                summary: Get parameters available for given search options
+                parameters:
+                      - in: path
+                        name: optionId
+                        schema:
+                          type: integer
+                        required: true
+                responses:
+                      '200':
+                        description: OK

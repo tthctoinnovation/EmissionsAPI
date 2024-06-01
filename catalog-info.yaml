@@ -11,7 +11,8 @@ metadata:
     github.com/project-slug: tthctoinnovation/EmissionsAPI
     backstage.io/techdocs-ref: dir:.
     jira/project-key: "FLIG"
-  tags: "nodejs"
+  tags: 
+    -  nodejs
 spec:
   type: service
   lifecycle: experimental

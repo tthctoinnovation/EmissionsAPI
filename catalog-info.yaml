@@ -11,8 +11,6 @@ metadata:
     github.com/project-slug: tthctoinnovation/EmissionsAPI
     backstage.io/techdocs-ref: dir:.
     jira/project-key: "FLIG"
-    snyk.io/org-id: 13cd26d3-5c34-4435-8c5e-70a47111e7f7
-    snyk.io/target-id: value
   tags: 
     -  nodejs
 spec:
